@@ -10,18 +10,29 @@ MORSE_CODE = {
   '-.--' => 'Y', '--..' => 'Z'
 }.freeze
 
-def decode(code)
+def decode_char(code)
+  MORSE_CODE[code]
+end
+
+def decode_word(word)
   decoded_word = ''
-  code.split('   ').each do |word|
-    word.split.each do |character|
-      char = MORSE_CODE[character]
-      decoded_word += char
-    end
-    decoded_word += ' '
+  word.split.each do |character|
+    char = decode_char(character)
+    decoded_word += char
   end
   decoded_word
 end
 
-ibuscode = '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
-decoded_msg = decode(ibuscode)
-puts decoded_msg
+def decode(code)
+  decoded_sentence = ''
+  code.split('   ').each do |word|
+    decoded_word = decode_word(word)
+    decoded_sentence += decoded_word + ' '
+  end
+  decoded_sentence.strip
+end
+
+# Test cases
+p decode_char('.-') # Output: "A"
+p decode_word('-- -.--') # Output: "MY"
+p decode("-- -.-- -. .- -- .") # Output: "MY NAME"
