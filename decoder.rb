@@ -10,11 +10,15 @@ MORSE_CODE = {
   '-.--' => 'Y', '--..' => 'Z'
 }.freeze
 
+def decode_char(code)
+  MORSE_CODE[code]
+end
+
 def decode_word(word)
   decoded_word = ''
   word.split.each do |character|
     char = decode_char(character)
-    decoded_word << char
+    decoded_word += char
   end
   decoded_word
 end
@@ -23,15 +27,9 @@ def decode(code)
   decoded_sentence = ''
   code.split('   ').each do |word|
     decoded_word = decode_word(word)
-    decoded_sentence << decoded_word + ' '
+    decoded_sentence += decoded_word + ' '
   end
   decoded_sentence.strip
-end
-
-private
-
-def decode_char(code)
-  MORSE_CODE[code]
 end
 
 # Test cases
