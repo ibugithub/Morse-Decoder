@@ -1,85 +1,99 @@
-### <a name="readme-top"></a>
-
-<div align="center">
-
-  <h3><b>Animal Clinic</b></h3>
-
-</div>
-
-
-<!-- TABLE OF CONTENTS -->
+# Decode a Morse code message
+<br>
+<div align='center'>
+	<h1>Morse Code Decoder</h1>
+  </div>
+<a name="readme-top"></a>
 
 # 📗 Table of Contents
-
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 About Project <a name="about-project"></a>
+# 📖 Morse Code Decoder <a name="about-project"></a>
 
- The Animal Clinic is a Database type of project. There will be a Database for information of various animals. This is a project in microverse to learn basics of postgresql database.
-
+**Morse Code Decoder** During our vacation at the seaside, my coding partner and  I discovered old bottles with parchment inside. To our surprise, one bottle contained a message written in Morse code. Intrigued by the possibility of finding a lost pirate treasure, we decided to automate the process of decrypting the messages. Leveraging our Ruby programming skills, we've created a Morse code decoder to assist us in this exciting quest.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<summary>Database</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.ruby-lang.org/fr/">Ruby</a></li>
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
-- [ ] **[Various animal's information as a database]**
-- [ ] **[New data insertion in the database]**
-- [ ] **[Querying information from the database]**
+- Create our own Enumerable
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
 
+## 🚀 You can check the Live Demo here<a name="live-demo"></a>
+
+The live demo will be availabe soon
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+- Step 1: Clone this project using this git comand "git clone", (if you don't have git installed please visit
+  https://git-scm.com/downloads and install it).
+- Step 2: Once you have installed git you can clone this project using the command below:
+  ```
+  git clone https://github.com/ibugithub/Morse-Decoder
+  ```
+- Step 3: Once you have cloned this repo navigate to the folder that contains
+  the repository.
+- Step 4: If you want to watch the html file open it with your favorite web browser(This project MUST be opened from VS Code for full functionality).
+- Step 5: If you want to edit this project open it with your favorite text editor.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running cloning this repo `https://github.com/ibugithub/Morse-Decoder`.
 
 ### Prerequisites
-In order to run this project you need:
-  to have postgres installed in your system.
+
+There are no known prerequisites to run this project.
+If you encounter any issues trying to run it, please feel free to
+[open a ticket](https://github.com/ibugithub/Morse-Decoder/issues) to let me know and i will work on it to the best
+of my abilities
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+`git clone https://github.com/ibugithub/Morse-Decoder`
+
+or
+
+`git clone https://github.com/ibugithub/Morse-Decoder` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
+
+### Usage
+
+To run the project:
+
+- Method 1:
+
 ```sh
-  cd my-folder
-  git clone git@github.com:ibugithub/Vet-Clinic.git
+  cd PATH_TO_CLONE
 ```
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,18 +101,15 @@ Clone this repository to your desired folder:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
-
+> 👤 **Md Ibrahim Hossain**
 - GitHub: [@githubhandle](https://github.com/ibugithub)
 - Twitter: [@twitterhandle](https://twitter.com/mdibrahimibuu)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ibuu)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-- [ ] **[database updating]**
+> 👤 **Gardimy Charles**
+- GitHub: [@Gardimy](https://github.com/Gardimy)
+- Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
+- LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,7 +119,7 @@ Clone this repository to your desired folder:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ibugithub/BuWeather/issues).
+Feel free to check the [issues page](https://github.com/ibugithub/Morse-Decoder/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,7 +135,7 @@ If you like this project please give me a start and share my portfolio to recrut
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to microverse for giving the chance to imporve my coding skills.
+I would like to thank to [microverse](https://www.microverse.org/) For teaching me the database and more things.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
