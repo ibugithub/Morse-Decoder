@@ -10,7 +10,6 @@ MORSE_CODE = {
   '-.--' => 'Y', '--..' => 'Z'
 }.freeze
 
-
 def decode_words(words)
   splited_words = []
   words.split('   ').each do |word|
