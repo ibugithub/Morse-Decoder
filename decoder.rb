@@ -21,8 +21,8 @@ end
 
 def decode_chars(words)
   decoded_chars = ''
-  words.each do |word| 
-    word.split.each do |char| 
+  words.each do |word|
+    word.split.each do |char|
       decoded_chars += MORSE_CODE[char]
     end
     decoded_chars += ' '
